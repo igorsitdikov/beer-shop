@@ -74,11 +74,6 @@
             <artifactId>liquibase-core</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>
         <!-- io.springfox setup  -->
         <dependency>
             <groupId>org.springdoc</groupId>
@@ -100,10 +95,6 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

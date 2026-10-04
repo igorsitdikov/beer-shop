@@ -1,6 +1,6 @@
 FROM maven:3.8.6-openjdk-11 as MAVEN_BUILDER
 
-RUN git clone --depth 1 https://github.com/igorsitdikov/BeerShop.git /opt/tmp && \
+RUN git clone --depth 1 https://github.com/igorsitdikov/beer-shop.git /opt/tmp && \
     cd /opt/tmp && \
     mvn install
 
