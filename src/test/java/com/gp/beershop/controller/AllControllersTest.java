@@ -126,7 +126,7 @@ public class AllControllersTest extends AbstractControllerTest {
         verify(beerRepository, times(1)).findAll();
         // when
         mockMvc.perform(get("/api/beers")
-                            .param("type", "темное")
+                            .param("type", "dark")
                             .contentType(MediaType.APPLICATION_JSON))
             // then
             .andExpect(status().isOk())

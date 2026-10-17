@@ -57,7 +57,7 @@ public class IntegrationTest extends AbstractControllerTest {
     private void showAllBeersFilteredByType() throws Exception {
         // when
         mockMvc.perform(get("/api/beers")
-                            .param("type", "темное")
+                            .param("type", "dark")
                             .contentType(MediaType.APPLICATION_JSON))
             // then
             .andExpect(status().isOk())

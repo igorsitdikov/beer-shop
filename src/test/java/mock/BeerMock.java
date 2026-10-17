@@ -13,71 +13,71 @@ public final class BeerMock {
     private static Map<Long, Beer> beerMap = new HashMap<>() {{
         put(1L, Beer.builder()
             .id(1L)
-            .type("светлое")
+            .type("light")
             .inStock(true)
-            .name("Лидское")
-            .description("Лучшее пиво по бабушкиным рецептам")
+            .name("Lidskoye")
+            .description("The best beer by grandmother's recipes")
             .alcohol(5.0)
             .density(11.5)
-            .country("Республика Беларусь")
+            .country("Republic of Belarus")
             .price(BigDecimal.valueOf(5).setScale(2)).build());
         put(2L, Beer.builder()
             .id(2L)
-            .type("темное")
+            .type("dark")
             .inStock(true)
-            .name("Аливария")
-            .description("Пиво номер 1 в Беларуси")
+            .name("Alivaria")
+            .description("The No. 1 beer in Belarus")
             .alcohol(4.6)
             .density(10.2)
-            .country("Республика Беларусь")
+            .country("Republic of Belarus")
             .price(BigDecimal.valueOf(3).setScale(2)).build());
         put(3L, Beer.builder()
             .id(3L)
-            .type("светлое осветлённое")
+            .type("pale lager")
             .inStock(true)
             .name("Pilsner Urquell")
-            .description("непастеризованное")
+            .description("unpasteurized")
             .alcohol(4.2)
             .density(12.0)
-            .country("Чехия")
+            .country("Czechia")
             .price(BigDecimal.valueOf(8).setScale(2)).build());
         put(4L, Beer.builder()
             .id(4L)
-            .type("светлое")
+            .type("light")
             .inStock(true)
-            .name("Крынiца Pilsner")
-            .description("Мягкое пиво с чистым гармоничным вкусом, " +
-                         "искрящимся золотистым цветом и плотной белоснежной пеной. " +
-                         "Этот сорт придется по вкусу тем, кто ищет легкое пиво, " +
-                         "сохраняющее при этом свежий букет ароматного хмеля и деликатную " +
-                         "горчинку во вкусе.")
+            .name("Krynitsa Pilsner")
+            .description("A mellow beer with a clean, harmonious taste, " +
+                         "a sparkling golden color and a thick snow-white head. " +
+                         "This variety will appeal to those looking for a light beer, " +
+                         "preserving a fresh bouquet of aromatic hops and a delicate " +
+                         "bitterness on the finish.")
             .alcohol(4.4)
             .density(10.5)
-            .country("Республика Беларусь")
+            .country("Republic of Belarus")
             .price(BigDecimal.valueOf(3.2).setScale(2)).build());
         put(5L, Beer.builder()
             .id(3L)
-            .type("светлое осветлённое")
+            .type("pale lager")
             .inStock(false)
             .name("Pilsner Urquell Extra")
-            .description("непастеризованное")
+            .description("unpasteurized")
             .alcohol(4.5)
             .density(12.2)
-            .country("Чехия")
+            .country("Czechia")
             .price(BigDecimal.valueOf(8.3).setScale(2)).build());
         put(6L, Beer.builder()
             .id(4L)
-            .type("светлое")
+            .type("light")
             .inStock(true)
-            .name("Крынiца Pilsner")
-            .description("Мягкое пиво с чистым гармоничным вкусом, " +
-                         "искрящимся золотистым цветом и плотной белоснежной пеной. " +
-                         "Этот сорт придется по вкусу тем, кто ищет легкое пиво, " +
-                         "сохраняющее при этом свежий букет ароматного хмеля и деликатную " +
-                         "горчинку во вкусе.")
+            .name("Krynitsa Pilsner")
+            .description("A mellow beer with a clean, harmonious taste, " +
+                         "a sparkling golden color and a thick snow-white head. " +
+                         "This variety will appeal to those looking for a light beer, " +
+                         "preserving a fresh bouquet of aromatic hops and a delicate " +
+                         "bitterness on the finish.")
             .alcohol(4.4)
             .density(10.5)
-            .country("Республика Беларусь")
+            .country("Republic of Belarus")
             .price(BigDecimal.valueOf(5.2).setScale(2)).build());
     }};
 
